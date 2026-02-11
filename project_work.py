@@ -18,7 +18,8 @@ def get_changes(magnitudes):
     changes = []
 
     # TODO: For each pair, calculate: next_value - current_value
-
+    for i in range(len(magnitudes)):
+        print(magnitudes[i])
     return changes
 
 
